@@ -3,19 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-.body{
-  background-color: #0e062d;
-  background-image: url("../Media/Imagenes/BackGraund1.jpg");
-
-}
-
 .Grid_Container{
   display: grid;
 }
 
 .nav_bar {
    display: flex;
-   background-color: #0e062d;
+   background-color: #1e1541;
   
 }
 
@@ -43,10 +37,9 @@
  }
 
 .principal{
-  background-image: url("../Media/Imagenes/BackGraund1.jpg");
+  background-image: linear-gradient(to top, #000000, #110209, #1a0414, #1e081d, #1f0c29, #201032, #20133b, #1e1745, #231a4d, #281d55, #2d205e, #322366);
   display: flex;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .principal p{
@@ -58,12 +51,12 @@
 .principal img{
   margin-top: 5%;
   margin-left: 5%;
-  height: 80vh;
+  height: 100vh;
   width: 90vh;
 }
 
 .principal-index{
-  background-image: url("../Media/Imagenes/BackGraund1.jpg");
+  background-image: linear-gradient(to top, #000000, #110209, #1a0414, #1e081d, #1f0c29, #201032, #20133b, #1e1745, #231a4d, #281d55, #2d205e, #322366);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -90,6 +83,8 @@
   border-width: 5px;
   border-style: solid;
   border-color: #ffffff;
+  animation:fadeInDown;
+  animation-duration: 2s;
 }
 
 #textoInformativo{
@@ -98,6 +93,8 @@
   left: 50px;
   top: 350px;
   width: 500px;
+  animation:fadeInDown;
+  animation-duration: 2s;
 }
 
 #txtImgGrupo{
@@ -105,6 +102,8 @@
   position: relative;
   left: 11px;
   top: -7px;
+  animation:fadeInDown;
+  animation-duration: 2s;
 }
 
 
@@ -112,6 +111,8 @@
   color: #ffffff;
   left: 50px;
   top: 350px;
+  animation:fadeInDown;
+  animation-duration: 2s;
 }
 
 #txtImgEstudios{
@@ -119,13 +120,30 @@
   position: relative;
   left: 7px;
   top: -13px;
+  animation:fadeInDown;
+  animation-duration: 2s;
 }
 
 .txtMaratonMapCont{
   color: #ffffff;
+  animation:fadeInDown;
+  animation-duration: 2s;
 }
 
+.TextoImg{
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
 
+.AnimacionIzquierda{
+  animation:fadeInLeft;
+  animation-duration: 2s;
+}
+
+.principalContacto{
+  background-image: linear-gradient(to top, #000000, #110209, #1a0414, #1e081d, #1f0c29, #201032, #20133b, #1e1745, #231a4d, #281d55, #2d205e, #322366);
+  height:100vh
+}
 
 @media only screen and (max-width: 768px){
 
@@ -164,6 +182,3 @@
       width: 100%;
     }
   }
-
-    
-  
