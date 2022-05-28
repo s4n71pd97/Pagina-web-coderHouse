@@ -23,6 +23,31 @@
 
 .row-pading{
   padding-top:3%;
+  padding-bottom: 5%;
+}
+
+#Row-Quienes-somos{
+  background-color: #ffffff33;
+}
+
+#Row-Servicios{
+  background-color: #00000033;
+}
+
+#Row-Carreras{
+  background-color: #a681fd3f;
+}
+
+#Row-Ubicacion{
+  background-color: #edbafa33;
+}
+
+#Row-Contactos{
+  background-color: #ffffff33;
+}
+
+#Index-Carrousel{
+  align-items: center;
 }
 
 
