@@ -1,5 +1,16 @@
 $Gradiante: linear-gradient(to bottom, #000000, #21171b, #3b2633, #533750, #684b71, #725086, #78569e, #7a5db7, #7753c6, #7249d4, #6b3de3, #632ff1);
+$Colores:(
+  color1:#ffffff33,
+  color2:#00000033,
+  color3:#a681fd3f,
+  color4:#edbafa33,
+  color5:#ffffff33,
+  );
 
+  @mixin Animaciones($Orientacion,$tiempo) {
+    animation:$Orientacion;
+    animation-duration:$tiempo;    
+  }
 
 * {
     margin: 0;
@@ -26,23 +37,23 @@ $Gradiante: linear-gradient(to bottom, #000000, #21171b, #3b2633, #533750, #684b
   }
 
   #Row-Quienes-somos{
-    background-color: #ffffff33;
+    background-color: map-get($Colores,color1);
   }
   
   #Row-Servicios{
-    background-color: #00000033;
+    background-color: map-get($Colores,color2);
   }
   
   #Row-Carreras{
-    background-color: #a681fd3f;
+    background-color: map-get($Colores,color3);
   }
   
   #Row-Ubicacion{
-    background-color: #edbafa33;
+    background-color: map-get($Colores,color4);
   }
   
   #Row-Contactos{
-    background-color: #ffffff33;
+    background-color: map-get($Colores,color5);
   }
   
   #Index-Carrousel{
@@ -50,8 +61,8 @@ $Gradiante: linear-gradient(to bottom, #000000, #21171b, #3b2633, #533750, #684b
   }
 
   .AnimacionIzquierda{
-    animation:fadeInLeft;
-    animation-duration: 2s;
+    @include Animaciones(left,2s)
+    
   }
 
   .Principal-Texto{
