@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+#Titulos {
+  color: white; }
+
+p {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif; }
 
 .nav_bar {
   background-color: #000000; }
@@ -85,3 +93,27 @@
 
 #galeria img:hover {
   border: 5px solid #ffffff; }
+
+#Index-QuienesSomos {
+  background-color: #ffffff65;
+  text-align: center;
+  height: 250px; }
+  #Index-QuienesSomos h3 {
+    padding-top: 4%; }
+
+.row-Footer {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: #000000c0;
+  color: #ffffff; }
+
+#col-Footer1 {
+  text-align: end; }
+
+#col-Footer2 {
+  text-align: start; }
+
+.Pading-Izquierda {
+  align-items: center;
+  align-content: center; }
